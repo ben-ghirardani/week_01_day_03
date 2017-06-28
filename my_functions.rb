@@ -20,3 +20,8 @@ def find_item(array, item)
   end
   return false
 end
+
+def get_first_key(teachers_wallets)
+  result = teachers_wallets.keys[0]
+  return result
+end
