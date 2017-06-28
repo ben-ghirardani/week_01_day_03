@@ -10,3 +10,13 @@ def sum_array(numbers)
   end
   return result
 end
+
+
+def find_item(array, item)
+  for house in array do
+    if item == house
+      return true
+    end
+  end
+  return false
+end
